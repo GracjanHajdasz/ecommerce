@@ -1,3 +1,4 @@
+import { Search, ShoppingCart } from "lucide-react";
 import "./Header.css";
 
 export function Header() {
@@ -11,8 +12,12 @@ export function Header() {
         <p>About</p>
       </div>
       <div className="header-right">
-        <i className="fa-solid fa-magnifying-glass"></i>
-        <i className="fa-solid fa-cart-shopping"></i>
+        <div className="icon-wrapper">
+          <Search size={20} />
+        </div>
+        <div className="icon-wrapper">
+          <ShoppingCart size={20} />
+        </div>
         <p>login</p>
       </div>
     </header>

@@ -11,8 +11,17 @@ header img{
     max-width: 15vw;
 }
 
-header p{
+header p, .icon-wrapper{
     margin: 0 0.8rem;
+    height: 64px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .nav-center{
@@ -29,4 +38,9 @@ header p{
     gap: 1rem;
     align-items: center;
     margin-right: 50px;
+}
+
+header p:hover, .icon-wrapper:hover {
+    background-color: #6B7280;
+    border-bottom: solid red 5px;
 }
