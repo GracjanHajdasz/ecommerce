@@ -21,7 +21,7 @@ header p, .icon-wrapper{
     justify-content: center;
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s, border 0.2s;
 }
 
 .nav-center{
@@ -42,5 +42,5 @@ header p, .icon-wrapper{
 
 header p:hover, .icon-wrapper:hover {
     background-color: #6B7280;
-    border-bottom: solid red 5px;
+    border-bottom: solid #4F46E5 5px;
 }

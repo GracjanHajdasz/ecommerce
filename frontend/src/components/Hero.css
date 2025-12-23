@@ -1,0 +1,56 @@
+section {
+    color: #111827;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 11px 24px -11px rgba(66, 68, 90, 1);
+}
+
+section h1 {
+    font-size: 5vw;
+}
+
+section p {
+    font-size: 1.5vw;
+}
+
+section button {
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 6.5vh;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 11px 24px -11px rgba(66, 68, 90, 1);
+    transition: 0.2s ease;
+}
+
+.shop-now-btn {
+    background-color: #4F46E5;
+    border: solid 2px #4F46E5;
+    color: white;
+    margin-right: 30px;
+}
+
+.view-categories-btn {
+    border: solid 1px #4F46E5;
+    color: #111827;
+    background-color: transparent;
+
+}
+
+.shop-now-btn:hover {
+    background-color: #615ae0;
+    border: solid 2px #615ae0;
+    translate: 0 0.1em;
+
+}
+
+.view-categories-btn:hover {
+    color: white;
+    background-color: #4F46E5;
+    translate: 0 0.1em;
+}
+
+.shop-now-btn:active, .view-categories-btn:active {
+    translate: 0 0.2em;
+}
