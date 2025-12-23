@@ -1,0 +1,32 @@
+header{
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    max-height: 64px;
+    font-size: larger;
+}
+
+header img{
+    max-width: 15vw;
+}
+
+header p{
+    margin: 0 0.8rem;
+}
+
+.nav-center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.header-right{
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 50px;
+}
