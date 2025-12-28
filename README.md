@@ -49,14 +49,16 @@ cd ecommerce
 
 ### 2. Backend
 
-````cd backend
+```
+cd backend
 npm install
-npm start```
+npm start
+```
 
 ### 3. Frontend
-```cd frontend
+
+```
+cd frontend
 npm install
-npm start```
-
-
-````
+npm start
+```
